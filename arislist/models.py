@@ -13,4 +13,4 @@ class Classified(models.Model):
 
 class Product(models.Model):
     Model_Name = models.ForeignKey(Classified.Model_Name)
-    Version = models.IntegerField(default=0)
+    Version = models.IntegerField(default = 0)
